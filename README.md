@@ -1,4 +1,4 @@
-![](assets/broadcaster.png)
+![](assets/broadcaster.jpg)
 
 # Copilot Native
 The native client is a wrapper around the Copilot website to give us additional support for persistent OBS sockets for customers as a native application, and deeper browser control.
