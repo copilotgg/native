@@ -1,0 +1,5 @@
+config.json
+bin/
+build/
+obj/
+node_modules/

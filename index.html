@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>copilot</title>
+    <script src="build/app.js"></script>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+        body {
+            background-color: #222;
+        }
+        #browser {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            left: 0;
+            right: 0;
+            height: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <webview id="browser"
+             nwdisable
+             partition="persist:copilot"></webview>
+</body>
+</html>

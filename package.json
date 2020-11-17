@@ -1,0 +1,37 @@
+{
+  "name": "app.content-guru",
+  "version": "0.0.0",
+  "description": "Native application for Copilot web services",
+  "main": "index.html",
+  "author": {
+    "name": "Northern LAN Limited"
+  },
+  "scripts": {
+    "start": "nw ."
+  },
+  "domain": "copilot-native",
+  "window": {
+    "icon": "assets/copilot.png",
+    "show": true,
+    "show_in_taskbar": true,
+    "position": "center",
+    "width": 1480,
+    "height": 950
+  },
+  "chromium-args": "--enable-logging=stderr",
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "axios": "^0.20.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "obs-websocket-js": "^4.0.2",
+    "source-map-loader": "^1.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "devDependencies": {
+    "nw": "^0.49.2-sdk"
+  }
+}
