@@ -1,4 +1,4 @@
-![](assets/broadcaster.png)
+![](assets/broadcaster.jpg)
 
 # Copilot Native
 A wrapper around the Copilot website to give additional support for persistent OBS connections for customers natively, and deeper browser control.
